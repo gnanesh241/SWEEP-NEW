@@ -3,7 +3,7 @@ import {  customer1, customer2} from "../assets/images";
 import { item1 } from "../assets/images";
 export const navLinks = [
     { href: "#home", label: "Home" },
-    { href: "map.html", label: "Location" },
+    { href: "#about-us", label: "Location" },
     { href: "#products", label: "Products" },
     { href: "#contact-us", label: "Contact Us" },
     { href: "https://swachhbharatmission.gov.in/SBMCMS/writereaddata/Portal/Images/pdf/brochure/mhmbrochure.pdf", label: "Education" },

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import { Button} from "../components";
-import { item2} from "../assets/images";
+import { item3} from "../assets/images";
 import { bigShoe1 } from "../assets/images";
 import { arrowRight } from "../assets/icons";
 
@@ -35,7 +35,7 @@ const Hero = () => {
 
       <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center'>
         <img
-          src={item2}
+          src={item3}
           alt='shoe colletion'
           width={610}
           height={502}
