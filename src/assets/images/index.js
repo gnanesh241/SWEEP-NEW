@@ -5,6 +5,7 @@ import pic from "./pic.png"
 import item1 from './item.png'
 import group from "./Group 1.png"
 import img4 from "./Whitelogo.png"
+import item2 from "./ima1.png"
 
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
@@ -50,5 +51,6 @@ export {
     thumbnailShoe3,
     pic,
     group,
-    img4
+    img4,
+    item2
 }

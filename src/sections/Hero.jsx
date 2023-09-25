@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import { shoes, statistics } from "../constants";
-import { Button, ShoeCard } from "../components";
+import { Button} from "../components";
+import { item2} from "../assets/images";
 import { bigShoe1 } from "../assets/images";
 import { arrowRight } from "../assets/icons";
 
@@ -19,7 +19,7 @@ const Hero = () => {
 
         <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold'>
           <span className='xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>
-           The Pioneering 
+           Pioneering 
           </span>
           <br />
           <span className='text-coral-green inline-block mt-3'>Sanitary</span> Care
@@ -35,25 +35,13 @@ const Hero = () => {
 
       <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center'>
         <img
-          src={bigShoeImg}
+          src={item2}
           alt='shoe colletion'
           width={610}
           height={502}
           className='object-contain relative z-10'
         />
 
-        <div className='flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6'>
-          {shoes.map((image, index) => (
-            <div key={index}>
-              <ShoeCard
-                index={index}
-                imgURL={image}
-                changeBigShoeImage={(shoe) => setBigShoeImg(shoe)}
-                bigShoeImg={bigShoeImg}
-              />
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );
