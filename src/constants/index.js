@@ -1,5 +1,5 @@
 import { facebook, instagram, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2} from "../assets/images";
+import {  customer1, customer2} from "../assets/images";
 import { item1 } from "../assets/images";
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -9,12 +9,6 @@ export const navLinks = [
     { href: "https://swachhbharatmission.gov.in/SBMCMS/writereaddata/Portal/Images/pdf/brochure/mhmbrochure.pdf", label: "Education" },
 ];
 
-
-export const statistics = [
-    { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
-    { value: '250k+', label: 'Customers' },
-];
 
 export const products = [
     {
@@ -106,7 +100,7 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "AMALA EARTH", link: "/" },
+            { name: "AMALA EARTH", link: "https://amala.earth/" },
             { name: "MYCARMESI", link: "/" },
             { name: "CARE FOR TWO YOU & EARTH", link: "/" },
             { name: "SPARKLE", link: "/" },
