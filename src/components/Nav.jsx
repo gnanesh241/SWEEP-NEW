@@ -1,8 +1,12 @@
+import { useState } from "react";
 import { hamburger } from "../assets/icons";
 import { group} from "../assets/images";
 import { navLinks } from "../constants";
+import { Dropdown } from "./Dropdown";
 
 const Nav = () => {
+  const [showDropdown, setShowDropdown] = useState(false);
+
   return (
     <header className='padding-x py-8 absolute z-10 w-full'>
       <nav className='flex justify-between items-center max-container'>
@@ -32,8 +36,10 @@ const Nav = () => {
           <a href='/'>Explore now</a>
         </div>
         <div className='hidden max-lg:block'>
-          <img src={hamburger} alt='hamburger icon' width={25} height={25} />
+          <img src={hamburger} alt='hamburger icon' width={25} height={25} onClick={() => setShowDropdown((prev) => !prev)}/>
+          {showDropdown && <Dropdown />}
         </div>
+        
       </nav>
     </header>
   );
