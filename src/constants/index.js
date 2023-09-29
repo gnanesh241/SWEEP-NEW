@@ -122,7 +122,7 @@ export const footerLinks = [
         title: "Get in touch",
         links: [
             { name: "contactsweeptech@gmail.com", link: "mailto:contactsweeptech@gmail.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "+9360414757", link: "tel:+9360414757" },
         ],
     },
 ];
